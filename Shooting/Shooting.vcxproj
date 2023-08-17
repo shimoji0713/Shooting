@@ -18,6 +18,36 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceFiles\Bullet.cpp" />
+    <ClCompile Include="SourceFiles\BulletsSpawner.cpp" />
+    <ClCompile Include="SourceFiles\CharaBase.cpp" />
+    <ClCompile Include="SourceFiles\Enemy.cpp" />
+    <ClCompile Include="SourceFiles\GameMain.cpp" />
+    <ClCompile Include="SourceFiles\InputControl.cpp" />
+    <ClCompile Include="SourceFiles\Main.cpp" />
+    <ClCompile Include="SourceFiles\NwaySpawner.cpp" />
+    <ClCompile Include="SourceFiles\Player.cpp" />
+    <ClCompile Include="SourceFiles\SceneManager.cpp" />
+    <ClCompile Include="SourceFiles\SphereCollider.cpp" />
+    <ClCompile Include="SourceFiles\Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceFiles\AdstractScene.h" />
+    <ClInclude Include="SourceFiles\Bullet.h" />
+    <ClInclude Include="SourceFiles\BulletsSpawner.h" />
+    <ClInclude Include="SourceFiles\CharaBase.h" />
+    <ClInclude Include="SourceFiles\Define.h" />
+    <ClInclude Include="SourceFiles\Enemy.h" />
+    <ClInclude Include="SourceFiles\Fps.h" />
+    <ClInclude Include="SourceFiles\GameMain.h" />
+    <ClInclude Include="SourceFiles\InputControl.h" />
+    <ClInclude Include="SourceFiles\NwaySpawner.h" />
+    <ClInclude Include="SourceFiles\Player.h" />
+    <ClInclude Include="SourceFiles\SceneManager.h" />
+    <ClInclude Include="SourceFiles\SphereCollider.h" />
+    <ClInclude Include="SourceFiles\Title.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -150,9 +180,6 @@
       <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
